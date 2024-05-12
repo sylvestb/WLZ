@@ -33,3 +33,7 @@ It is then possible to identify the main characteristics of each cluster/CYP-gro
 As a matter of fact the analysis of schools clustering into geographical hubs could also be extended to higher dimensions using non-geographical data, which would help identify other logical school groupings based on their specific characteristics and target them better with the programmes WLZ offers.
 
 Implementation of these techniques from the above example should be fairly straightforward.
+
+
+
+![School Hubs](https://github.com/sylvestb/WLZ/assets/169618458/b859e5be-ad10-46b5-a34c-d2d3d8f88997)
