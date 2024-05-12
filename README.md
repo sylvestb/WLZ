@@ -21,7 +21,7 @@ Further explanations of a similar sort of problem are explained in the blog post
 ## Outputs
 Examples' outputs
 * output1.html: shows example1 grouping all London schools into 6 geographical hubs
-* output2.html: shows example2 building hubs of size 20-30 that cover the whole of London
+* output2.html: shows example2 building hubs of size 30-40 that cover the whole of London
 Please download the whole html file and open it - github fails to display such large html's
 
 # k-Means Clustering & Further applications: optimal CYP targeting
