@@ -9,8 +9,7 @@ from source_code.spectral_equal_size_clustering import SpectralEqualSizeClusteri
 from source_code.visualisation import visualise_clusters
 from source_code.distanceMatrixFromCoordinates import buildDistanceMatrixFromCoordinates
 
-import plotly.io as pio
-pio.renderers.default = "browser"
+
 
 logging.basicConfig()
 logging.getLogger().setLevel(logging.INFO)
@@ -22,7 +21,7 @@ coords = pd.read_csv("datasets/all_schools_xy_2016.csv")
 #dist_tr = np.load("datasets/symmetric_dist_tr.npy")
 dist_tr =buildDistanceMatrixFromCoordinates("datasets/all_schools_xy_2016.csv")
 
-min_range, max_range = 50, 70  # desired number of points per cluster
+min_range, max_range = 20, 30  # desired number of points per cluster
 
 # Get the cluster hyperparameters
 npoints = coords.shape[0]
@@ -48,4 +47,9 @@ clusters_figure = visualise_clusters(coords,
                                      latitude_colname="latitude",
                                      label_col="cluster",
                                      zoom=11)
+
+import plotly.io as pio
+pio.renderers.default = "browser"
+
 clusters_figure.show()
+clusters_figure.write_html("outputs/output2.html")
