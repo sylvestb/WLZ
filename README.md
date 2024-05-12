@@ -2,7 +2,6 @@
   <img src="https://github.com/sylvestb/WLZ/assets/169618458/93812730-9cd7-4142-900c-90fe35e1a263" />
 </p>
 
-![logo](https://github.com/sylvestb/WLZ/assets/169618458/93812730-9cd7-4142-900c-90fe35e1a263)
 
 # Abstract
 
