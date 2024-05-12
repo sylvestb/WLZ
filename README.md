@@ -1,6 +1,6 @@
 # Abstract
 
-WLZ has seen its scope increase dramatically over the last few years and now has to deal with an increasingly large dataset of schools, CYP, delivery partners, corporate partners etc. Optimal usage of this rich dataset requires formal statistical analysis/data mining approaches. Machine-Learning algorithms such as equal-size spectral clustering and k-means clustering offer promising and exciting opportunities to WLZ.
+WLZ has seen its scope increase dramatically over the last few years and now has to deal with an increasingly large dataset of schools, CYP, delivery partners, corporate partners etc. Optimal usage of this rich dataset requires formal statistical analysis/data mining approaches. Machine-Learning algorithms such as equal-size spectral clustering and k-means clustering are easily applicable and promise exciting opportunities to WLZ.
 
 # Equal-Size Spectral Clustering & Optimal clustering of schools into local hubs
 This is a modification of the spectral clustering code that builds clusters balanced 
