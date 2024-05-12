@@ -29,6 +29,7 @@ The algorithm and related algorithms such as plain [k-Means clustering](https://
 
 The fundamental idea is to see each CYP as represented by N coordinates (e.g. 1/ longitude 2/ latitude 3/ communication rating 4/ problem solving rating 5/ self-management rating 6/ collaboration rating 7/ assessed interest in field X 8/ assessed interest in field Y ... N/ assessed interest in **** ), much like we saw schools represented by 2 coordinates (1/ longitude 2/ latitude). This is commonly known as an N-dimensional space (as opposed to the 2-dimensional space of geographical coordinates).
 It is then possible to identify the main characteristics of each cluster/CYP-group by looking at what is technically known as the "centroid" of each group.
-For what it is worth the analysis of schools clustering into geographical hubs could also be extended to higher dimensions to identify other logical school groupings based on their specific characteristics.
+
+As a matter of fact the analysis of schools clustering into geographical hubs could also be extended to higher dimensions using non-geographical data, which would help identify other logical school groupings based on their specific characteristics.
 
 Implementation of these techniques from the above example should be fairly straightforward.
