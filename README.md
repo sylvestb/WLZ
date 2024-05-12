@@ -1,4 +1,5 @@
-![wlzLogo](https://github.com/sylvestb/WLZ/assets/169618458/acfd8748-f23f-40c2-bccf-6c56bfcfc4c0)
+
+![logo](https://github.com/sylvestb/WLZ/assets/169618458/93812730-9cd7-4142-900c-90fe35e1a263)
 
 # Abstract
 
