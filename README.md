@@ -8,9 +8,9 @@ You should install Python 3.9. There is a Pipfile to install the required librar
 
 ## Toy datasets
 In the folder `datasets` we have provided you with a toy dataset
-With the coordinates of London schools and another one with the coordinates of Amsterdam restaurants. Specifications of the input dataset
+With the coordinates of London schools sourced from [GLC data](https://data.london.gov.uk/dataset/london-schools-atlas). Specifications of the input dataset
 are explained in the blog post. 
 
 ## Examples
-* example1.py: From a set of hyperparameters, you obtain clusters with sizes roughly equal to N / `nclusters`  
-* example2.py: From a range of cluster sizes, you obtain the clusters hyperparameters to run the clustering code. 
+* example1.py: From a set of hyperparameters, you obtain clusters with sizes roughly equal to N / `nclusters`. In practice: we ask for the creation of 6 hubs and find the optimal bucketing of schools into these hubs
+* example2.py: From a range of cluster sizes, you obtain the clusters hyperparameters to run the clustering code. In practice: we ask to find the best school hubs of size 20-30
