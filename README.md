@@ -1,3 +1,5 @@
+![wlzLogo](https://github.com/sylvestb/WLZ/assets/169618458/acfd8748-f23f-40c2-bccf-6c56bfcfc4c0)
+
 # Abstract
 
 WLZ has seen its scope increase dramatically over the last few years and now has to deal with an increasingly large dataset of schools, CYP, delivery partners, corporate partners etc. Optimal usage of this rich dataset requires formal statistical analysis/data mining approaches. Machine-Learning algorithms such as equal-size spectral clustering and k-means clustering are easily applicable and promise exciting opportunities to WLZ.
@@ -24,6 +26,9 @@ Examples' outputs
 * output2.html: shows example2 building hubs of size 30-40 that cover the whole of London
 Please download the whole html file and open it - github fails to display such large html's
 
+![School Hubs](https://github.com/sylvestb/WLZ/assets/169618458/b859e5be-ad10-46b5-a34c-d2d3d8f88997)
+
+
 # k-Means Clustering & Optimal CYP targeting
 The algorithm and related algorithms such as plain [k-Means clustering](https://en.wikipedia.org/wiki/K-means_clustering) apply to a number of other useful applications, e.g. identifying cluster of students by relevant criteria such as geographical location as we just did for schools... or equally by interests/strenths/areas of opportunity (think scores in different fields as reported by questionaires or Skills-Builder-style benchmarks). This can be particularly relevant for the creation of target groups for events or newsletters. 
 
@@ -36,4 +41,5 @@ Implementation of these techniques from the above example should be fairly strai
 
 
 
-![School Hubs](https://github.com/sylvestb/WLZ/assets/169618458/b859e5be-ad10-46b5-a34c-d2d3d8f88997)
+
+
