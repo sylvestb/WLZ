@@ -1,3 +1,5 @@
+Machine-Learning algorithms offer promising and exciting opportunities to WLZ
+
 # Equal-Size Spectral Clustering
 This is a modification of the spectral clustering code that builds clusters balanced 
 in the number of points. This can be particularly useful for grouping schools into hubs of a given size from their geographical coordinates. 
@@ -12,8 +14,12 @@ With the coordinates of London schools sourced from [GLC data](https://data.lond
 are explained in the blog post. 
 
 ## Examples
-* example1.py: From a set of hyperparameters, you obtain clusters with sizes roughly equal to N / `nclusters`. In practice: we ask for the creation of 6 hubs and find the optimal bucketing of schools into these hubs
-* example2.py: From a range of cluster sizes, you obtain the clusters hyperparameters to run the clustering code. In practice: we ask to find the best school hubs of size 20-30
+* example1.py: From a set of hyperparameters, you obtain clusters with sizes roughly equal to N / `nclusters`. In practice: we ask for the creation of a set number of hubs and find the optimal hub/groupings
+* example2.py: From a range of cluster sizes, you obtain the clusters hyperparameters to run the clustering code. In practice: we ask to find the best school hubs of fixed size. The number of such hubs is thus obviously implied by the total number of schools.
+
+## Outputs
+* output1.html: shows example1 grouping all London schools into 6 geographical hubs
+* output2.html: shows example2 building hubs of size 20-30 that cover the whole of London
 
 ## Extensions
-The algorithm and related algorithms such as plain k-Means clustering apply to a number of other useful applications, e.g. identifying cluster of students by relevant criteria such as geographical location as we just did for schools, or equally by interests/strenths/areas of opportunity (think scores in different fields as reported by questionaires or skillsBuilder-style criteria). This can be particularly relevant for the creation of target groups for events or newsletters.
+The algorithm and related algorithms such as plain [k-Means clustering](https://en.wikipedia.org/wiki/K-means_clustering) apply to a number of other useful applications, e.g. identifying cluster of students by relevant criteria such as geographical location as we just did for schools, or equally by interests/strenths/areas of opportunity (think scores in different fields as reported by questionaires or skillsBuilder-style criteria). This can be particularly relevant for the creation of target groups for events or newsletters.
