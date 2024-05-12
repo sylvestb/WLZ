@@ -13,7 +13,7 @@ in the number of points. This can be particularly useful for grouping schools op
 A detailed explanation of this algorithm can be found in [there](https://towardsdatascience.com/spectral-clustering-aba2640c0d5b) and further details in [this blog post](https://medium.com/p/cce65c6f9ba3/edit).
 
 ## Code Prerequisities
-You should install Python 3.9. There is a Pipfile to install the required libraries. Also seems to work fine in Python 3.8.3 (and packages from condo)
+You should install Python 3.9. There is a Pipfile to install the required libraries. Also seems to work fine in Python 3.8.3 (and packages management delegated to Anaconda)
 
 ## The London Schools Dataset
 In the folder `datasets` we have provided you with an example dataset: the coordinates of London schools sourced from [GLC data](https://data.london.gov.uk/dataset/london-schools-atlas). The set is very rich - for the purpose of this study, we only require the latitude/longitude of said schools.
