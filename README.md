@@ -30,7 +30,6 @@ Examples' outputs
 
 
 * output2.html: shows example2 building hubs of size 30-40 that cover the whole of London
-Please download the whole html file and open it - github fails to display such large html's
 
 ![School Hubs](https://github.com/sylvestb/WLZ/assets/169618458/b859e5be-ad10-46b5-a34c-d2d3d8f88997)
 
