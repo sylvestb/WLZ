@@ -26,6 +26,9 @@ Further explanations of a similar sort of problem are explained in the blog post
 ## Outputs
 Examples' outputs
 * output1.html: shows example1 grouping all London schools into 6 geographical hubs
+![Megahubs](https://github.com/sylvestb/WLZ/assets/169618458/b2f51641-b292-4d29-b008-1968c92f78e7)
+
+
 * output2.html: shows example2 building hubs of size 30-40 that cover the whole of London
 Please download the whole html file and open it - github fails to display such large html's
 
